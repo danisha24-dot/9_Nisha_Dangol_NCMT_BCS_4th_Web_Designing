@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="brand">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero" id="home">
+            <div>
+                <span class="badge">FRONTEND WEB DEVELOPER</span>
+                <h1>Hello, I'm Nisha Dangol</h1>
+                <p>I build clean, responsive, and user-friendly web experiences with HTML, CSS, and JavaScript.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#contact">Download CV</a>
+                    <a class="btn btn-secondary" href="#projects">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <h3>Quick Snapshot</h3>
+                <ul class="hero-list">
+                    <li>Creative UI layouts</li>
+                    <li>Responsive design</li>
+                    <li>Clean code structure</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-card">
+                <p>I am a passionate web designer and developer who enjoys turning ideas into elegant interfaces. My focus is on accessibility, readability, and modern visual storytelling.</p>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="section-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Semantic structure and accessible page layouts.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Responsive styling, animations, and polished visuals.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Interactive elements and user-friendly behavior.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Design Tools</h3>
+                    <p>UI thinking, layout composition, and visual consistency.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="section-grid">
+                <div class="project-card">
+                    <h3>Business Landing Page</h3>
+                    <p>A clean landing page focused on strong typography and conversion flow.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>A modern profile page with responsive sections and a strong visual identity.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="contact-card">
+            <div>
+                <h3>Contact Me</h3>
+                <p>Email: nishadangol20@email.com</p>
+            </div>
+            <p>© <span id="year"></span> My Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
